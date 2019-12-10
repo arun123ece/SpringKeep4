@@ -36,10 +36,10 @@ import com.stackroute.keepnote.model.User;
  * */
 
 @Configuration
-@ComponentScan("com.stackroute.keepnote.*")
+/*@ComponentScan("com.stackroute.keepnote.*")*/
 @EnableWebMvc
 @EnableTransactionManagement
-@EnableAspectJAutoProxy
+/*@EnableAspectJAutoProxy*/
 public class ApplicationContextConfig {
 
 	/*
